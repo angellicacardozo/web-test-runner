@@ -1,0 +1,25 @@
+{
+  "name": "web-test-runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "web-test-runner \"test/**/*.test.js\" --node-resolve",
+    "test:watch": "web-test-runner \"test/**/*.test.js\" --node-resolve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angellicacardozo/web-test-runner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angellicacardozo/web-test-runner/issues"
+  },
+  "homepage": "https://github.com/angellicacardozo/web-test-runner#readme",
+  "devDependencies": {
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@web/test-runner": "^0.17.1"
+  }
+}
