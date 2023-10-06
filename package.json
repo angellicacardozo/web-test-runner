@@ -20,6 +20,10 @@
   "homepage": "https://github.com/angellicacardozo/web-test-runner#readme",
   "devDependencies": {
     "@esm-bundle/chai": "^4.3.4-fix.0",
-    "@web/test-runner": "^0.17.1"
+    "@web/test-runner": "^0.17.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "lit": "^2.8.0"
   }
 }
